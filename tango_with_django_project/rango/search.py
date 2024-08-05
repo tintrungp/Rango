@@ -1,6 +1,5 @@
 from serpapi import GoogleSearch
 import json
-from .. import config
 
 def run_search(params):
     search = GoogleSearch(params)

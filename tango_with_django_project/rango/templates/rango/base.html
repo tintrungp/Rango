@@ -37,6 +37,7 @@
     <div class="navbar-nav">
     <div class="nav-item text-nowrap">
       <ul>
+        <li><a  href="{% url 'rango:search' %}">Search</a></li>
         {% if user.is_authenticated %}
             <!-- Show these links when the user is logged in -->
 
