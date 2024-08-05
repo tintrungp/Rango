@@ -1,0 +1,485 @@
+{
+    "search_metadata": {
+        "id": "66b1491e58762bd14da96136",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/fef8e6d56a93a2a1/66b1491e58762bd14da96136.json",
+        "created_at": "2024-08-05 21:50:22 UTC",
+        "processed_at": "2024-08-05 21:50:22 UTC",
+        "duckduckgo_url": "https://duckduckgo.com/?q=Tango+With+Django&kl=us-en",
+        "raw_html_file": "https://serpapi.com/searches/fef8e6d56a93a2a1/66b1491e58762bd14da96136.html",
+        "prettify_html_file": "https://serpapi.com/searches/fef8e6d56a93a2a1/66b1491e58762bd14da96136.prettify",
+        "total_time_taken": 3.37
+    },
+    "search_parameters": {
+        "engine": "duckduckgo",
+        "q": "Tango With Django",
+        "kl": "us-en"
+    },
+    "search_information": {
+        "organic_results_state": "Results for exact spelling"
+    },
+    "organic_results": [
+        {
+            "position": 1,
+            "title": "Tango with Django",
+            "link": "https://www.tangowithdjango.com/",
+            "snippet": "Tango with Django is a beginner's guide to web development using the popular Python-based web application framework, Django. The book provides a hands-on guide to designing and building web applications, explaining in plain English how all the different technologies fit together.",
+            "favicon": "https://external-content.duckduckgo.com/ip3/www.tangowithdjango.com.ico",
+            "sitelinks": [
+                {
+                    "title": "Book 1.5.4",
+                    "link": "https://www.tangowithdjango.com/book/",
+                    "snippet": "How To Tango With Django 1.5.4\u00b6. 1. Overview. 1.1. Why Work with this Book? 1.2. What You will Learn; 1.3. Technologies and Services"
+                },
+                {
+                    "title": "5. Models and Databases",
+                    "link": "https://www.tangowithdjango.com/book/chapters/models.html",
+                    "snippet": "5. Models and Databases\u00b6. Working with databases often requires you to get your hands dirty messing about with SQL. In Django, a lot of this hassle is taken care of for you by Django's object relational mapping (ORM) functions, and how Django encapsulates databases tables through models. Essentially, a model is a Python object that describes your data model/table."
+                },
+                {
+                    "title": "Book 1.7",
+                    "link": "https://www.tangowithdjango.com/book17/",
+                    "snippet": "How To Tango With Django 1.7. Indices and tables; Next topic. 1. New in TwD 1.7. This Page. Show Source How To Tango With Django 1.7\u00b6 1. New in TwD 1.7; 2. Overview ..."
+                },
+                {
+                    "title": "18. JQuery and Django",
+                    "link": "https://www.tangowithdjango.com/book17/chapters/jquery.html",
+                    "snippet": "On click of the element with id #about-btn, we first get the html inside the element with id msg and appeand \"o\" to it. Then we change the html inside the element by calling the html function again, but this time passing through string msgstr to replace the html inside that element.. In this chapter we have provided a very rudimentßry guide to using JQuery and incroporating it within your ..."
+                },
+                {
+                    "title": "6. Models and Databases",
+                    "link": "https://www.tangowithdjango.com/book17/chapters/models.html",
+                    "snippet": "The workflow for adding models can be broken down into five steps. First, create your new model (s) in your Django application's models.py file. Update admin.py to include and register your new model (s). Then perform the migration $ python manage.py makemigrations. Apply the changes $ python manage.py migrate."
+                },
+                {
+                    "title": "11. Cookies and Sessions",
+                    "link": "https://www.tangowithdjango.com/book17/chapters/cookie.html",
+                    "snippet": "11.4.1. Testing Cookie Functionality\u00b6. To test out cookies, you can make use of some convenience methods provided by Django's request object. The three of particular interest to us are set_test_cookie(), test_cookie_worked() and delete_test_cookie().In one view, you will need to set a cookie."
+                }
+            ]
+        },
+        {
+            "position": 2,
+            "title": "How To Tango With Django 1.5.4",
+            "link": "https://www.tangowithdjango.com/book/",
+            "snippet": "How To Tango With Django 1.5.4\u00b6. 1. Overview. 1.1. Why Work with this Book? 1.2. What You will Learn; 1.3. Technologies and Services",
+            "favicon": "https://external-content.duckduckgo.com/ip3/www.tangowithdjango.com.ico"
+        },
+        {
+            "position": 3,
+            "title": "5. Models and Databases \u2014 How to Tango with Django 1.5.4",
+            "link": "https://www.tangowithdjango.com/book/chapters/models.html",
+            "snippet": "5. Models and Databases\u00b6. Working with databases often requires you to get your hands dirty messing about with SQL. In Django, a lot of this hassle is taken care of for you by Django's object relational mapping (ORM) functions, and how Django encapsulates databases tables through models. Essentially, a model is a Python object that describes your data model/table.",
+            "favicon": "https://external-content.duckduckgo.com/ip3/www.tangowithdjango.com.ico"
+        },
+        {
+            "position": 4,
+            "title": "1. Overview \u2014 How to Tango with Django",
+            "link": "http://tango-with-django.readthedocs.io/en/latest/chapters/overview.html",
+            "snippet": "Learn how to build web applications using Django, a popular Python framework, with this book. It covers design, setup, models, forms, authentication, CSS, JavaScript, deployment and more.",
+            "favicon": "https://external-content.duckduckgo.com/ip3/tango-with-django.readthedocs.io.ico"
+        },
+        {
+            "position": 5,
+            "title": "PDF How to Tango with Django - Read the Docs",
+            "link": "https://media.readthedocs.org/pdf/tango-with-django/latest/tango-with-django.pdf",
+            "snippet": "How to Tango with Django Release 1 Leif Azzopardi and David Maxwell Nov 13, 2017",
+            "favicon": "https://external-content.duckduckgo.com/ip3/media.readthedocs.org.ico"
+        },
+        {
+            "position": 6,
+            "title": "3. Django Basics \u2014 How to Tango with Django - Read the Docs",
+            "link": "http://tango-with-django.readthedocs.io/en/latest/chapters/setup.html",
+            "snippet": "3.2. Creating your Django Project\u00b6. To create a new Django Project, go to your code directory (i.e. your <workspace> directory), and issue the following command: $ django-admin.py startproject tango_with_django_project This command will invoke the django-admin.py script, which will set up a new Django project called tango_with_django_project for you. . Typically, we append _project to the end ...",
+            "favicon": "https://external-content.duckduckgo.com/ip3/tango-with-django.readthedocs.io.ico"
+        },
+        {
+            "position": 7,
+            "title": "How to tango with Django - YouTube",
+            "link": "https://www.youtube.com/watch?v=kegsLctq4O0",
+            "snippet": "Blog post \ud83d\udc49https://learning.constructor.org/blog/how-to-tango-with-djangoPyCharm download: https://www.jetbrains.com/pycharm/Django: https://djangoproject.c...",
+            "favicon": "https://external-content.duckduckgo.com/ip3/www.youtube.com.ico"
+        },
+        {
+            "position": 8,
+            "title": "9. Working with Templates \u2014 How to Tango with Django",
+            "link": "http://tango-with-django.readthedocs.io/en/latest/chapters/templates.html",
+            "snippet": "Recall that standard Django template commands are denoted by {% and %} tags. To start a block, the command is block <NAME>, where <NAME> is the name of the block you wish to create. You must also ensure that you close the block with the endblock command, again enclosed within Django template tags.. You can also specify 'default content' for your blocks, if you so desire.",
+            "favicon": "https://external-content.duckduckgo.com/ip3/tango-with-django.readthedocs.io.ico"
+        },
+        {
+            "position": 9,
+            "title": "Tango with Django 2 Book Repository - GitHub",
+            "link": "https://github.com/tangowithcode/tango_with_django_2",
+            "snippet": "This repository contains the source for the book Tango with Django 2.This is the fourth edition of Tango with Django which has now been heavily revised and upgraded to make use of Django 2.x using Python 3.x.The book was first launched in October 2013 by Dr. Leif Azzopardi and Dr. David Maxwell while both were teaching web development at the University of Glasgow.",
+            "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+        },
+        {
+            "position": 10,
+            "title": "How To Tango With Django 1.7 \u2014 How to Tango with Django 1.7",
+            "link": "https://www.tangowithdjango.com/book17/",
+            "snippet": "How To Tango With Django 1.7. Indices and tables; Next topic. 1. New in TwD 1.7. This Page. Show Source How To Tango With Django 1.7\u00b6 1. New in TwD 1.7; 2. Overview ...",
+            "favicon": "https://external-content.duckduckgo.com/ip3/www.tangowithdjango.com.ico"
+        },
+        {
+            "position": 11,
+            "title": "Tango With Django: A beginner's Guide to Web Developmen\u2026",
+            "link": "https://www.goodreads.com/book/show/33014911-tango-with-django",
+            "snippet": "Tango with Django is a beginner's guide to web development using the Python programming language and the popular Django web framework. The book is written in a clear and friendly style teaching you the basics of web development through a step-by-step guide. Along the way a series of exercises are presented to test your learning as you build and ...",
+            "favicon": "https://external-content.duckduckgo.com/ip3/www.goodreads.com.ico"
+        },
+        {
+            "position": 12,
+            "title": "tangowithcode/tango_with_django_2_code - GitHub",
+            "link": "https://github.com/tangowithcode/tango_with_django_2_code",
+            "snippet": "This is a model solution for the Tango with Django 2 book. Included are model solutions to all of the exercises included through each chapter. Screenshots that appear in the book were taken from a browser when executing this code.",
+            "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+        },
+        {
+            "position": 13,
+            "title": "Tango with Django (v1.9/1.10) - Chapter 5, populate_rango issues",
+            "link": "https://stackoverflow.com/questions/46331620/tango-with-django-v1-9-1-10-chapter-5-populate-rango-issues",
+            "snippet": "import os os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tango_with_django_project.settings') import django django.setup() #imports Django projects settings into the context of this script from rango.models import Category, Page def populate(): # First, we will create lists of dictionaries containing the pages we want to add # into each ...",
+            "favicon": "https://external-content.duckduckgo.com/ip3/stackoverflow.com.ico"
+        },
+        {
+            "position": 14,
+            "title": "How to Tango with Django: A Python Django Tutorial : r/django - Reddit",
+            "link": "https://www.reddit.com/r/django/comments/1oz8ri/how_to_tango_with_django_a_python_django_tutorial/",
+            "snippet": "Looks promising. For anyone wondering. I was doing the django documentation tutorial and it was such a headache, and I was making it through but I hardly felt like I was being educated. This tutorial on the other hand is really making a difference and I've learned 10x more in 10x less time (not an actual figure). Wow.",
+            "favicon": "https://external-content.duckduckgo.com/ip3/www.reddit.com.ico"
+        },
+        {
+            "position": 15,
+            "title": "14. Doing the Tango with Rango! \u2014 How to Tango with Django",
+            "link": "http://tango-with-django.readthedocs.io/en/latest/chapters/tango_too.html",
+            "snippet": "View Profile \u00b6. To add the view profile functionality, undertake the following steps. 14.3.1. Creating the Profile Template \u00b6. First, create a new template called profile.html. In this template, add the following code. {% extends \"rango/base.html\" %} {% block title %}Profile{% endblock %}",
+            "favicon": "https://external-content.duckduckgo.com/ip3/tango-with-django.readthedocs.io.ico"
+        },
+        {
+            "position": 16,
+            "title": "6. Models and Databases \u2014 How to Tango with Django 1.7",
+            "link": "https://www.tangowithdjango.com/book17/chapters/models.html",
+            "snippet": "The workflow for adding models can be broken down into five steps. First, create your new model (s) in your Django application's models.py file. Update admin.py to include and register your new model (s). Then perform the migration $ python manage.py makemigrations. Apply the changes $ python manage.py migrate.",
+            "favicon": "https://external-content.duckduckgo.com/ip3/www.tangowithdjango.com.ico"
+        },
+        {
+            "position": 17,
+            "title": "Walkthrough of the code for Tango with Django 2. - GitHub",
+            "link": "https://github.com/rokcancer/tango_with_django_2_code",
+            "snippet": "Tango with Django 2 Codebase. This is a model solution for the Tango with Django 2 book. Included are model solutions to all of the exercises included through each chapter. Screenshots that appear in the book were taken from a browser when executing this code. If you notice something that doesn't work -- or you think there's a better way to ...",
+            "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+        },
+        {
+            "position": 18,
+            "title": "10. Cookies and Sessions \u2014 How to Tango with Django",
+            "link": "http://tango-with-django.readthedocs.io/en/latest/chapters/cookie.html",
+            "snippet": "10. Cookies and Sessions\u00b6. In this chapter, we will be going through sessions and cookies, both of which go hand in hand, and are of paramount importance in modern day web applications.In the previous chapter, the Django framework used sessions and cookies to handle the login and logout functionality (all behind the scenes).",
+            "favicon": "https://external-content.duckduckgo.com/ip3/tango-with-django.readthedocs.io.ico"
+        },
+        {
+            "position": 19,
+            "title": "18. JQuery and Django \u2014 How to Tango with Django 1.7",
+            "link": "https://www.tangowithdjango.com/book17/chapters/jquery.html",
+            "snippet": "On click of the element with id #about-btn, we first get the html inside the element with id msg and appeand \"o\" to it. Then we change the html inside the element by calling the html function again, but this time passing through string msgstr to replace the html inside that element.. In this chapter we have provided a very rudimentry guide to using JQuery and incroporating it within your ...",
+            "favicon": "https://external-content.duckduckgo.com/ip3/www.tangowithdjango.com.ico"
+        },
+        {
+            "position": 20,
+            "title": "tango-with-django \u00b7 GitHub Topics \u00b7 GitHub",
+            "link": "https://github.com/topics/tango-with-django",
+            "snippet": "Learning Django with the book 'Tango with Django 2' for the Web Application Systems course. In Spanish, Rango means \"a league ranked by quality\". I have completed chapters 1-10 and deployed it on PythonAnywhere. django rango tango-with-django Updated May 17, 2021; Python; ...",
+            "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+        },
+        {
+            "position": 21,
+            "title": "11. Cookies and Sessions \u2014 How to Tango with Django 1.7",
+            "link": "https://www.tangowithdjango.com/book17/chapters/cookie.html",
+            "snippet": "11.4.1. Testing Cookie Functionality\u00b6. To test out cookies, you can make use of some convenience methods provided by Django's request object. The three of particular interest to us are set_test_cookie(), test_cookie_worked() and delete_test_cookie().In one view, you will need to set a cookie.",
+            "favicon": "https://external-content.duckduckgo.com/ip3/www.tangowithdjango.com.ico"
+        },
+        {
+            "position": 22,
+            "title": "GitHub - martindes01/tango-with-django: Learning how to tango with ...",
+            "link": "https://github.com/martindes01/tango-with-django",
+            "snippet": "This is a Django web application for users to view, like and categorise resources for learning Python. This project was built following the Tango with Django guide, with the addition of Material Design using MDC Web.",
+            "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+        },
+        {
+            "position": 23,
+            "title": "Tango with Code \u00b7 GitHub",
+            "link": "https://github.com/tangowithcode",
+            "snippet": "tango_with_django_17 tango_with_django_17 Public The new version of rango in django 1.7 from www.tangowithdjango.com Python 21 18",
+            "favicon": "https://external-content.duckduckgo.com/ip3/github.com.ico"
+        }
+    ],
+    "inline_videos": [
+        {
+            "position": 1,
+            "title": "How to tango with Django",
+            "link": "https://www.youtube.com/watch?v=kegsLctq4O0",
+            "duration": "16:44",
+            "platform": "YouTube",
+            "date": "2019-04-17T09:00:05.0000000",
+            "views": 341,
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OVP.3tl4aNvspavIfHUwdpnHigEsDh&pid=Api"
+        },
+        {
+            "position": 2,
+            "title": "Zotto dancing milonga at Tango Magia 15",
+            "link": "https://www.youtube.com/watch?v=_4G03HpzArc",
+            "duration": "2:57",
+            "platform": "YouTube",
+            "date": "2012-12-30T17:33:14.0000000",
+            "views": 19643556,
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OVP.08WHA2OJLTcZZFVmOeFSDgHgFo&pid=Api"
+        },
+        {
+            "position": 3,
+            "title": "Django Tango",
+            "link": "https://www.youtube.com/watch?v=k07CeQPpmbg",
+            "duration": "4:47",
+            "platform": "YouTube",
+            "date": "2018-07-02T16:40:13.0000000",
+            "views": 7068,
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OVP.y9IXXpZI_A4wdX_hJ6goSwEsDh&pid=Api"
+        },
+        {
+            "position": 4,
+            "title": "Transform Your Tango Dancing: 3 Key Principles Of Tango Technique",
+            "link": "https://www.youtube.com/watch?v=6HkCqoGSMRM",
+            "duration": "13:02",
+            "platform": "YouTube",
+            "date": "2022-09-23T15:33:05.0000000",
+            "views": 7692,
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OVP.dnfvm96f3_DJPLFRJuQ7eQEsDh&pid=Api"
+        },
+        {
+            "position": 5,
+            "title": "How to Tango: ARGENTINE TANGO BASIC STEP WITH FORWARD OCHO (Beginner Level)",
+            "link": "https://www.youtube.com/watch?v=um13Amq1NqI",
+            "duration": "10:25",
+            "platform": "YouTube",
+            "date": "2021-09-25T14:45:05.0000000",
+            "views": 30423,
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OVP.VzKMdEDydz5JqJGySJIcxwHgFo&pid=Api"
+        },
+        {
+            "position": 6,
+            "title": "Django Wagner - Tango Der Liefde",
+            "link": "https://www.youtube.com/watch?v=HmgVly-pYCc",
+            "duration": "3:28",
+            "platform": "YouTube",
+            "date": "2015-01-07T14:42:38.0000000",
+            "views": 151754,
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OVP.SR4q_o5vEPZRxX-fO7C_5AEsDh&pid=Api"
+        },
+        {
+            "position": 7,
+            "title": "Python Django Tutorial for Beginners",
+            "link": "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+            "duration": "1:02:36",
+            "platform": "YouTube",
+            "date": "2021-06-28T14:00:31.0000000",
+            "views": 2543985,
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OVP.aAhoQ95gYR-NHrUC3DVOLAHgFo&pid=Api"
+        },
+        {
+            "position": 8,
+            "title": "Basic Argentine Tango",
+            "link": "https://www.youtube.com/watch?v=7qY0_zp58ow",
+            "duration": "5:14",
+            "platform": "YouTube",
+            "date": "2008-12-13T09:49:24.0000000",
+            "views": 1869336,
+            "thumbnail": "https://tse4.mm.bing.net/th?id=OVP.CkK_fp15BeGS-_l-pv2AugHgFo&pid=Api"
+        },
+        {
+            "position": 9,
+            "title": "Tango Django (Ruma rakastaja)",
+            "link": "https://www.youtube.com/watch?v=Zj-Fm3Z7BOg",
+            "duration": "2:50",
+            "platform": "YouTube",
+            "date": "2018-06-28T14:17:14.0000000",
+            "views": 1626,
+            "thumbnail": "https://tse2.mm.bing.net/th?id=OVP.RAlxRn4rZw7q8a_CYtdlCAEsDh&pid=Api"
+        },
+        {
+            "position": 10,
+            "title": "TANGO STEPS: Ochos & Dips (Technique & Tips) 2021",
+            "link": "https://www.youtube.com/watch?v=aVHor6-per8",
+            "duration": "9:27",
+            "platform": "YouTube",
+            "date": "2021-01-09T14:45:01.0000000",
+            "views": 20446,
+            "thumbnail": "https://tse2.mm.bing.net/th?id=OVP.hvHv5ITZNnxMN3TDvxGceAEsDh&pid=Api"
+        }
+    ],
+    "inline_videos_link": "https://duckduckgo.com/?q=Tango+With+Django&kl=us-en&iax=videos&ia=videos",
+    "inline_images": [
+        {
+            "position": 1,
+            "title": "Tango with Django 2 - Printige Bookstore",
+            "link": "https://printige.net/product/tango-with-django-2/",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.vh_2vGHLkmbTjAhgM53MJAHaJl&pid=Api",
+            "image": "https://printige.net/wp-content/uploads/2021/02/Tango-with-Django-2.png"
+        },
+        {
+            "position": 2,
+            "title": "Tango With Django\u2026 by Leif Azzopardi et al. [PDF/iPad/Kindle]",
+            "link": "https://leanpub.com/tangowithdjango4/",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.HslD6E1wJWZVUoVk2ka9OAAAAA&pid=Api",
+            "image": "https://d2sofvawe08yqg.cloudfront.net/tangowithdjango4/s_hero?1677955635"
+        },
+        {
+            "position": 3,
+            "title": "Tango with Django: a beginners guide to web development with Django 1.5 ...",
+            "link": "http://eprints.gla.ac.uk/90975/",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.l6-YdzMJFvqcSoP1ByA8bQHaKe&pid=Api",
+            "image": "http://eprints.gla.ac.uk/90975/1/TangoWithDjangoCover.jpg"
+        },
+        {
+            "position": 4,
+            "title": "Tango With Django: A beginner's Guide to Web Development With Python ...",
+            "link": "https://forcoder.net/tango-with-django/",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.uktNAStkxWReuD71qZz-uwAAAA&pid=Api",
+            "image": "https://forcoder.net/wp-content/uploads/tango-with-django.jpg"
+        },
+        {
+            "position": 5,
+            "title": "\u0642\u06cc\u0645\u062a \u0648 \u062e\u0631\u06cc\u062f \u06a9\u062a\u0627\u0628 Tango With Django: A beginner's Guide to Web ...",
+            "link": "https://www.digikala.com/product/dkp-5398997/%DA%A9%D8%AA%D8%A7%D8%A8-tango-with-django-a-beginners-guide-to-web-development-with-python-django-19-%D8%A7%D8%AB%D8%B1-leif-azzopardi-and-david-maxwell-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D8%A4%D9%84%D9%81%DB%8C%D9%86-%D8%B7%D9%84%D8%A7%DB%8C%DB%8C",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.5HyddBF3lORymidkZg6-ewHaHa&pid=Api",
+            "image": "https://dkstatics-public.digikala.com/digikala-products/abe63651e1bd9e8dbe02a4432c499eb056e3c3a0_1623079372.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+        },
+        {
+            "position": 6,
+            "title": "Tango With Django: A beginner's Guide to Web... (PDF)",
+            "link": "https://pdfroom.com/books/tango-with-django-a-beginners-guide-to-web-development-with-python-django-19/p0q2JxamdxE",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.-jJuYTh3ZQvt2rnFzLpbLAAAAA&pid=Api",
+            "image": "https://imgproxy.pdfroom.com/6bz5j9qGgHYjgU0TPveM00kDc8hlOrMegwLSBn4RzZY/rs:auto:1200:630:1/g:no/cDBxMkp4YW1keEUuanBn.jpg"
+        },
+        {
+            "position": 7,
+            "title": "Tango With Django 2: A beginner's guide to web development with Django ...",
+            "link": "https://sanet.st/blogs/mecury-books/tango_with_django_a_beginners_guide_to_web_development_with_django.3504549.html",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.3nkijNRyyG6mlHzqHwUZUAAAAA&pid=Api",
+            "image": "https://sanet.pics/storage-6/1020/sAO3Ek9xFc6FyPIBNstEKVRYgtNqepH3.png"
+        },
+        {
+            "position": 8,
+            "title": "Tango with Django \ud83e\udd20",
+            "link": "https://www.tangowithdjango.com/",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.fk8lx_nM0I0XlxJkxd_klwAAAA&pid=Api",
+            "image": "https://www.tangowithdjango.com/img/hero.png"
+        },
+        {
+            "position": 9,
+            "title": "[FREE] Western Type Beat | \"tango with django\" - YouTube",
+            "link": "https://www.youtube.com/watch?v=gyI7pHErp-4",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.s2qU8HVxLnL-_DgKa4l_iwHaEK&pid=Api",
+            "image": "https://i.ytimg.com/vi/gyI7pHErp-4/maxresdefault.jpg"
+        },
+        {
+            "position": 10,
+            "title": "Tango With Django 2 | Papiro",
+            "link": "https://www.papiro-bookstore.com/product/tango-with-django-2/",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.rri3QSzpXLDYXSKBJL4PIQHaJl&pid=Api",
+            "image": "https://www.papiro-bookstore.com/wp-content/uploads/2021/12/Tango-With-Django-2.jpg"
+        },
+        {
+            "position": 11,
+            "title": "Tango With Django 2 - \u642c\u4e66\u5320 - \u7535\u5b50\u4e66\u4e0b\u8f7d",
+            "link": "http://www.banshujiang.cn/e_books/2489",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.1i0D5tzKqPWJMwz2f0ev1AAAAA&pid=Api",
+            "image": "https://imagebsj.netlify.app/2489.jpeg"
+        },
+        {
+            "position": 12,
+            "title": "Tango With Django | PDF | Information Age | Systems Engineering",
+            "link": "https://www.scribd.com/document/562849962/Tango-With-Django",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.ynwxzFGJdylhwOzig_XnDgHaJ4&pid=Api",
+            "image": "https://imgv2-2-f.scribdassets.com/img/document/562849962/original/e0cf9a0d55/1704807433?v=1"
+        },
+        {
+            "position": 13,
+            "title": "Tango With Django 2: A beginner's guide to web development with Django ...",
+            "link": "http://finelybook.com/tango-with-django-2/",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.vdFQpgxc7JqQZeCeTupB3wHaHa&pid=Api",
+            "image": "http://www.tangowithdjango.com/book/_static/twd200x200.jpg"
+        },
+        {
+            "position": 14,
+            "title": "Tango with django",
+            "link": "https://www.slideshare.net/rajan24oct/tango-with-django",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.yOt6YxfInfs3QMI-MZFFPgHaFj&pid=Api",
+            "image": "https://image.slidesharecdn.com/tangowithdjango-140901053354-phpapp01/95/tango-with-django-1-638.jpg?cb=1409549705"
+        },
+        {
+            "position": 15,
+            "title": "Tango with Django A beginners Guide to Web Development with Django Book ...",
+            "link": "https://w3definitions.com/tango-with-django-a-beginners-guide-to-web-development-with-django-book-d0c-pdf/",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.bydp3zAd_4RvApCbGfSRwQAAAA&pid=Api",
+            "image": "https://w3definitions.com/doc-images/3340.png"
+        },
+        {
+            "position": 16,
+            "title": "Tango With Django Pdf",
+            "link": "https://schematicfixxander55.z19.web.core.windows.net/tango-with-django-pdf.html",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.VRBdff2BTjMeoMVcy5CHjwAAAA&pid=Api",
+            "image": "https://www.cglib.org/wp-content/uploads/2017/08/Tango-No2.pdf.jpg"
+        },
+        {
+            "position": 17,
+            "title": "How to tango with Django - YouTube",
+            "link": "https://www.youtube.com/watch?v=kegsLctq4O0",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.1ifVSWOl5UzVXWb5nzwoNgAAAA&pid=Api",
+            "image": "https://i.ytimg.com/vi/kegsLctq4O0/maxresdefault.jpg"
+        },
+        {
+            "position": 18,
+            "title": "Django Tango - Cancion Hungara - YouTube",
+            "link": "https://www.youtube.com/watch?v=izG0HyIf-z4",
+            "thumbnail": "https://tse1.mm.bing.net/th?id=OIP.2N3pOBed-KHBSZAepXV68QAAAA&pid=Api",
+            "image": "https://i.ytimg.com/vi/izG0HyIf-z4/maxresdefault.jpg"
+        }
+    ],
+    "inline_images_link": "https://duckduckgo.com/?q=Tango+With+Django&kl=us-en&iax=images&ia=images",
+    "related_searches": [
+        {
+            "query": "tango with django pdf",
+            "link": "https://duckduckgo.com/?q=tango%20with%20django%20pdf"
+        },
+        {
+            "query": "tango with django github",
+            "link": "https://duckduckgo.com/?q=tango%20with%20django%20github"
+        },
+        {
+            "query": "tango with django book",
+            "link": "https://duckduckgo.com/?q=tango%20with%20django%20book"
+        },
+        {
+            "query": "django tango template",
+            "link": "https://duckduckgo.com/?q=django%20tango%20template"
+        },
+        {
+            "query": "tango with django download",
+            "link": "https://duckduckgo.com/?q=tango%20with%20django%20download"
+        },
+        {
+            "query": "how to tango django",
+            "link": "https://duckduckgo.com/?q=how%20to%20tango%20django"
+        },
+        {
+            "query": "django tango examples",
+            "link": "https://duckduckgo.com/?q=django%20tango%20examples"
+        },
+        {
+            "query": "django database tango",
+            "link": "https://duckduckgo.com/?q=django%20database%20tango"
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=duckduckgo&kl=us-en&q=Tango+With+Django&start=23"
+    }
+}
