@@ -101,17 +101,24 @@
           <a class="nav-link" href="{% url 'rango:restricted' %}">
             <span data-feather="file-text" class="align-text-bottom"></span>  
             Restricted Page</a>
-        </li>
+          </li>
           <li class="nav-item">
           <a class="nav-link" href="{% url 'auth_password_change' %}">
             <span data-feather="file-text" class="align-text-bottom"></span>  
             Change Password</a>
-        </li>
-        <li class="nav-item">
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="{% url 'rango:about' %}">
             <span data-feather="file-text" class="align-text-bottom"></span>  
             About</a>
-        </li>
+          </li>
+          <!--
+         <li class="nav-item">
+            <a class="nav-link" href=" url 'rango:profile' ">
+            <span data-feather="file-text" class="align-text-bottom"></span>  
+            Profile</a>
+          </li>
+          -->
           {% endif %}
         </ul>
     </nav>

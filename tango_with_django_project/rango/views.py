@@ -1,13 +1,14 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.urls import reverse
-from rango.models import Category, Page
+from rango.models import Category, Page, UserProfile
 from rango.forms import CategoryForm, PageForm, UserForm, UserProfileForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from datetime import datetime
 from rango.search import run_query
 from django.core.exceptions import ObjectDoesNotExist
+from registration.backends.simple.views import RegistrationView
 
 def index(request):
     category_list = Category.objects.order_by('-likes')[:5]
@@ -182,3 +183,34 @@ def goto_url(request, page_id):
     
     else:
         redirect(reverse('rango:index'))
+
+@login_required
+def register_profile(request):
+    form = UserProfileForm()
+
+    if request.method == 'POST':
+        form = UserProfileForm(request.POST, request.FILES)
+
+        if form.is_valid():
+            user_profile = form.save(commit=False)
+            user_profile.user = request.user
+            user_profile.save()
+            return redirect(reverse('rango:index'))
+        else: 
+            print(form.errors)
+    context_dict = {'form': form}
+    return render(request, 'rango/profile_registration.html', context=context_dict)
+
+'''def profile(request):
+    curr_user = UserProfile.objects.get(user=)
+    context_dict = {}
+
+    context_dict['website'] = curr_user.website
+    context_dict['picture'] = curr_user.picture.path
+
+    return render(request, 'rango/profile.html', context=context_dict)
+'''
+class MyRegistrationView(RegistrationView):
+    def get_success_url(self,user):
+        return reverse('rango:register_profile')
+
