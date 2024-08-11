@@ -7,6 +7,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from datetime import datetime
 from rango.search import run_query
+from django.core.exceptions import ObjectDoesNotExist
 
 def index(request):
     category_list = Category.objects.order_by('-likes')[:5]
@@ -36,12 +37,18 @@ def show_category(request, category_name_slug):
 
     try:
         category = Category.objects.get(slug=category_name_slug)
-        pages = Page.objects.filter(category=category)
+        pages = Page.objects.filter(category=category).order_by('-views')
         context_dict['pages'] = pages
         context_dict['category'] = category
     except Category.DoesNotExist:
         context_dict['category'] = None
         context_dict['pages'] = None
+
+        context_dict['result_list'] = []
+    if request.method == 'POST':
+        query = request.POST['query'].strip()
+        if query:
+            context_dict['result_list'] = run_query(query)
 
     return render(request, 'rango/category.html', context=context_dict)
 
@@ -159,3 +166,19 @@ def search(request):
         if query:
             result_list = run_query(query)
     return render(request, 'rango/search.html', {'result_list': result_list, 'prev_query': query})
+
+def goto_url(request, page_id):
+
+    if request.method == 'GET':
+        # using a query string
+        # page_id = request.GET.get('page_id')
+        try: 
+            page = Page.objects.get(id=page_id)
+            page.views += 1
+            page.save()
+            return redirect(page.url)
+        except ObjectDoesNotExist:
+            redirect(reverse('rango:index'))
+    
+    else:
+        redirect(reverse('rango:index'))
